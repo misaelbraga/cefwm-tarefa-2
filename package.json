@@ -1,0 +1,33 @@
+{
+  "name": "cefwm-tarefa-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "bootstrap-icons": "^1.7.2",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misaelbraga/cefwm-tarefa-2.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "Misael Braga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misaelbraga/cefwm-tarefa-2/issues"
+  },
+  "homepage": "https://github.com/misaelbraga/cefwm-tarefa-2#readme"
+}
