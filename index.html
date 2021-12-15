@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <!-- Required meta tags -->
@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Meu app com Bootstrap 4</title>
 </head>
 
@@ -42,7 +42,7 @@
             </ul>
         </div>
     </nav>
-    <div class="flex-grow-1 d-flex flex-column">
+    <div class="d-flex flex-column flex-grow-1">
         <div class="jumbotron jumbotron-fluid mt-2 bg-info text-white">
             <div class="container text-center">
                 <h1 class="display-5">Seletor de cor</h1>
@@ -52,12 +52,18 @@
         
         <div class="d-flex flex-column justify-content-between flex-grow-1">
             <div></div>
-            <div class="container d-flex flex-column flex-sm-row">
-                <input class="text-center flex-grow-1 " type="text" name="" id="" placeholder="Nome ou código da cor...">
-                <button type="submit" class="btn btn-primary flex-grow-1 ">
-                    <i class="bi-eye-fill"></i>
-                    Visualizar
-                </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 p-md-1">
+                        <input class="form-control text-center " type="text" name="" id="" placeholder="Nome ou código da cor...">
+                    </div>
+                    <div class="col-md-6 p-md-1">
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="bi-eye-fill"></i>
+                            Visualizar
+                        </button>
+                    </div>
+                </div>
             </div>
             <footer class="py-3 text-center bg-light text-muted">
                 <em>Copyright © 2021 Misael Braga</em>
